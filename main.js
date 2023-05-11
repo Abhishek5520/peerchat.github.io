@@ -30,7 +30,7 @@ let constraints = {
         width: {min: 640, ideal: 1280, max: 1920},
         height: {min: 400, ideal: 720, max: 1080}
     },
-    audio: false
+    audio: true
 }
 
 let init = async () => {
