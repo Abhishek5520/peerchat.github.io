@@ -88,6 +88,19 @@
     }
 }
 
+
+@media screen and (max-height:600px){
+    .smallFrame{
+        height: 120px;
+        width: 170px;
+    }
+
+    .control-container img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
 @media screen and (max-height:400px){
     .smallFrame{
         height: 80px;
