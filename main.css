@@ -66,6 +66,18 @@
 
 @media screen and (max-width:600px){
     .smallFrame{
+        height: 80px;
+        width: 120px;
+    }
+
+    .control-container img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .smallFrame{
         height: 120px;
         width: 80px;
     }
