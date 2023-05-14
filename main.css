@@ -64,7 +64,7 @@
     background-color: rgb(255, 80, 80, 1);
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
     .smallFrame{
         height: 80px;
         width: 120px;
@@ -76,10 +76,22 @@
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:350px){
     .smallFrame{
         height: 120px;
         width: 80px;
+    }
+
+    .control-container img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-height:400px){
+    .smallFrame{
+        height: 80px;
+        width: 120px;
     }
 
     .control-container img{
