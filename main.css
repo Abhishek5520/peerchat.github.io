@@ -64,7 +64,7 @@
     background-color: rgb(255, 80, 80, 1);
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .smallFrame{
         height: 80px;
         width: 120px;
